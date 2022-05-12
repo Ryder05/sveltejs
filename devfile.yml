@@ -1,0 +1,11 @@
+schemaVersion: 2.1.0
+metadata:
+  name: opencell-core
+  version: 1.0.0
+projects:
+  - name: opoencell-source-code
+    clonePath: resources/my-project
+    git: https://0sema@bitbucket.org/opencellsoft/opencell-core.git
+      remotes:
+      checkoutFrom:
+        revision: 12.X
